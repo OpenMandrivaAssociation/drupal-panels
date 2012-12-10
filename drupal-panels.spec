@@ -40,3 +40,10 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 %defattr(644,root,root,755)
 %{_var}/www/drupal/modules/%{modname}
 %doc CHANGELOG.txt KNOWN_ISSUES.txt README.txt UPGRADE.txt
+
+
+%changelog
+* Sat May 12 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.3.2-1
++ Revision: 798410
+- imported package drupal-panels
+
